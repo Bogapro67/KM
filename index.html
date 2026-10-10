@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>Estructura con Columnas</title>
+    <style>
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #140a98;
+            padding: 10px 20px;
+        }
+
+        /* Estilo para controlar el tamaño fijo del logotipo pequeño */
+        .logo-pequeno {
+            width: 500px;
+            /* Ajusta el tamaño que desees */
+            height: auto;
+            display: block;
+        }
+
+        /* Estilo para que la imagen de la cabecera sea responsiva y no se desborde */
+
+
+        .logo-cabecera {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin-bottom: 15px;
+            /* Espacio entre la imagen y el título */
+        }
+
+        .barra-navegacion{
+            display: flex;
+            gap: 15px;
+            margin-top: 10px;
+        }
+
+        main {
+            display: flex;
+            gap: 20px;
+
+        }
+
+        aside {
+            width: 25%;
+
+            background-color: #ffffff;
+            padding: 15px;
+        }
+
+
+        section {
+            width: 75%;
+            background-color: #1e09d9;
+            padding: 15px;
+        }
+
+        .boton-nav {
+            text-decoration: none;
+            color: rgba(234, 0, 0, 0.914);
+            background-color: rgb(250, 250, 250);
+            padding: 6px 12px;
+            border-radius: 10px;
+            font-size: 14PX;
+            font-family: sans-serif;
+            transition: background-color 0.6s;
+        }
+
+        .boton-nav:hover {
+            background-color: rgb(255, 255, 255);
+            color: rgb(228, 13, 13);
+        }
+
+        /* Estilos ajustados para el contenedor del anuncio */
+        .bloque-anuncio {
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #f4f4f4;
+            border: 1px dashed #ccc;
+            text-align: center;
+        }
+
+        .bloque-anuncio img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div>
+            <h1 style="margin: 0;">Mi Sitio Web</h1>
+            <nav></nav>
+                <a href="file:///D:/Escritorio/km1.html" class="boton-nav">Mundial 2018</a>
+                <a href="file:///D:/Escritorio/km2.html" class="boton-nav">Real Madrid</a>
+                <a href="file:///D:/Escritorio/km3.html" class="boton-nav activo">Su primer equipo</a>
+        </div>
+        <img src="https://imagenes.elpais.com/resizer/v2/V6OJE3IR7EQCUAX43OCZRR4LXI.jpg?auth=0e34a1bdecd6b265d5022bf45802cbcf5d877910db7c037dc64b096b95b2263b&width=1000" alt="Logo de Mi Sitio Web" class="logo-pequeno">
+    </header>
+    <main>
+        <aside>
+            <h3></h3>
+            <p>Mbappé ha construido un legado histórico absoluto en la Copa Mundial de Fútbol, convirtiéndose en el máximo goleador de todos los tiempos en los Mundiales con un total de 22 goles</p>
+            
+            <!-- ANUNCIO PUBLICITARIO -->
+            <div class="bloque-anuncio">
+                <a href="https://ejemplo.com" target="_blank" rel="noopener">
+                    <img src="https://nmp.about.nike.com/about/prod/cf68f541-fc92-4373-91cb-086ae0fe2f88/001-nike-logos-swoosh-black.jpg?m=eyJlZGl0cyI6eyJqcGVnIjp7InF1YWxpdHkiOjEwMH0sIndlYnAiOnsicXVhbGl0eSI6MTAwfSwiZXh0cmFjdCI6eyJsZWZ0IjowLCJ0b3AiOjAsIndpZHRoIjo1MDAwLCJoZWlnaHQiOjI4MTN9LCJyZXNpemUiOnsid2lkdGgiOjM4NH19fQ%3D%3D&s=b228d00d677b1bd088cc34bf93e3b6c35d3cdc864096438b5413bb74daf261c1" alt="Anuncio publicitario" alt="Anuncio publicitario">
+                </a>
+            </div>
+        </aside>
+        <section>
+            <article>
+                <h2>La participación de Kylian Mbappé en el Mundial de Rusia 2018 fue el torneo que lo consagró como una superestrella del fútbol global con tan solo 19 años.</h2>
+                <p>es un futbolista profesional francés nacido el 20 de diciembre de 1998 en París. Se desempeña como delantero en el Real Madrid de España y es el capitán de la Selección de Francia.</p>
+
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Pie de página</p>
+    </footer>
+
+</body>
+
+</html>
